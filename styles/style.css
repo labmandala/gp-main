@@ -7,6 +7,11 @@ h6 {
     font-family: 'Oswald';
 }
 
+p,
+li {
+    font-family: sans-serif;
+}
+
 header {
     background: #231f20;
 }
@@ -109,7 +114,7 @@ nav {
     width: 100%;
 }
 
-#section-three .wrap text {
+#section-three .wrap #text {
     width: 48%;
     float: left;
 }
@@ -117,4 +122,16 @@ nav {
 #section-three h2 {
     margin-top: 0;
 }
+
+footer {
+    background: #116a58;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.footer {
+    float: none;
+}
+
 
