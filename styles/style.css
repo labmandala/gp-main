@@ -100,26 +100,43 @@ nav {
     padding: 30px;
 }
 
-#section-three .wrap {
+#about-section-two {
+	background: url('../images/GoldFoil.jpg') no-repeat;
+	padding: 30px;
+}
+
+#section-three .wrap,
+#about-section-two .wrap  {
     overflow: auto;
 }
 
-#section-three .wrap #img {
+#section-three .wrap #img,
+#about-section-two .wrap #img {
     width: 48%;
     float: left;
     padding-right: 4%;
 }
 
-#section-three .wrap #img img {
+#section-three .wrap #img img,
+#about-section-two .wrap #img img,
+#about-section-two .wrap #img iframe {
     width: 100%;
 }
 
-#section-three .wrap #text {
+#about-section-two .wrap .frame {
+    width: 48%;
+    float: left;
+    padding-left: 4%;
+}
+
+#section-three .wrap #text,
+#about-section-two .wrap #text {
     width: 48%;
     float: left;
 }
 
-#section-three h2 {
+#section-three h2,
+#about-section-two h2 {
     margin-top: 0;
 }
 

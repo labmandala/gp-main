@@ -6,6 +6,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS Style Sheets -->
+  <link href="styles/style.css" rel="stylesheet" type="text/css" />
+  <link href="styles/normalize.css" rel="stylesheet" type="text/css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
   <title>About Sarah</title>
 </head>
 
@@ -13,45 +21,90 @@
 
   <header>
     <nav>
-      <div>
+      <div class="logo">
         <a href="https://www.geekpack.co" target="_blank"><img src="images/geekpack.png" alt="GeekPack logo" /></a>
       </div>
-      <div>
+      <div id="navigation">
         <a href="index.html">HOME</a>
         <a href="about.html">ABOUT</a>
       </div>
     </nav>
   </header>
 
-  <div>
-    <h1>About Sarah</h1>
+  <div id="section-one">
+    <div class="wrap">
+      <h1>About Sarah</h1>
+      <img src="images/DividerGold.png" alt="Divider" />
+      <nav>
+        <a href="#about-section-two">Meet Julia</a> |
+        <a href="#about-section-three">Interests</a>
+      </nav>
+    </div>
   </div>
 
-  <div>
-    <div>
-      <img src="images/" alt="Sarah and Jeff" />
-    </div>
 
-    <div>
-      <h2>Hello, my name is Sarah!</h2>
-      <p>Through elements of design, development, and discovery I create and test solutions to improve usability,
-        incorporating methodologies and theory of UX/UI & visual design, industry standards & best practices. I
-        empathize with users, research, collect data, draw patterns, ideate potential solutions, prototype and iterate
-        towards user-centric design, helping to bridge the gap between humans and technology. </p>
-      <h4>This is me with my husband, Jeff.</h4>
-      <p>My interests are diverse and range from the natural sciences including studies in molecular biology and organic
-        chemistry, to creative explorations in essential oil blending as well as handmade artisanal gemstone and fossil
-        jewelry, and now into the tech world of web development, web design, and software engineering.</p>
-      <p>When I want to get into the creative code and design zone, I'll sometimes listen to inspiring chill music.
-        Check out the video for a taste of what I'm listening to lately.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/nHeuZ8EIbSU" title="YouTube video player"
-        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+  <div id="about-section-two">
+    <div class="wrap">
+      <div id="img">
+        <img src="images/sarah-jeff.jpg" alt="Sarah and Jeff" />
+      </div>
+
+      <div id="text">
+        <h2>Hello, my name is Sarah!</h2>
+        <p>Through elements of design, development, and discovery, I
+          incorporate methodologies and theory of UX/UI & visual design, industry standards & best practices. I
+          empathize, research, collect data, draw patterns, ideate, prototype and iterate
+          towards user-centric design, helping to bridge the gap between humans and technology. </p>
+        <h4>This is me with my husband, Jeff.</h4>
+      </div>
+    </div>
+    <br><br>
+
+    <div id="" class="wrap">
+      <div id="text">
+        <p>My interests are diverse and range from the natural sciences including studies in molecular biology and
+          organic
+          chemistry, to creative explorations in essential oil blending as well as handmade artisanal gemstone and
+          fossil
+          jewelry, and now into the tech world of web development, web design, and software engineering.</p>
+        <p>When I want to get into the creative code and design zone, I'll sometimes listen to inspiring chill music.
+          Check out the video for a taste of what I'm listening to lately.</p>
+      </div>
+      <div class="frame">
+        <iframe width="420" height="236" src="https://www.youtube.com/embed/nHeuZ8EIbSU" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div> <!-- section three-->
+
+  <div id="section-one">
+    <img src="images/DividerGold.png" alt="Divider" />
+  </div>
+
+  <div id="about-section-two">
+    <div id="about-section-three" class="wrap">
+      <div id="img">
+        <img src="https://accordingtoblue.com/wp-content/uploads/2018/01/JuliaBlue.jpg" alt="Julia and Blue">
+      </div>
+
+      <div id="text">
+        <h2>This is Julia the Instructor</h2>
+        <p>She's a self-taught web developer who loves WordPress and loves to code. She wants to share her knowledge with
+          other folks who want to learn to code.</p>
+        <h4>This is her dog, Blue!</h4>
+        <p>He's a chocolate lab who can fetch beer from the fridge...Seriously, check out the video!</p>
+        <iframe width="420" height="236" src="https://www.youtube.com/embed/7IJx84-ZAY4" frameborder="0"
+          allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
     </div>
   </div>
 
   <footer>
-    <a href="https://www.geekpack.co"><img src="images/geekpack.png" alt="GeekPack logo" /></a>
+    <div class="logo footer">
+      <a href="https://www.geekpack.co"><img src="images/geekpack.png" alt="GeekPack logo" /></a>
+    </div>
     <p>Copyright 2021 | All Right Reserved</p>
   </footer>
 
